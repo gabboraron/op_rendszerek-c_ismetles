@@ -22,6 +22,18 @@ struct [structure tag] {
 ````
 forrás: https://www.tutorialspoint.com/cprogramming/c_structures.htm
 
+> És így lehet átadni paraméterként:
+````C
+#include <stdio.h>
+struct student
+{
+    char name[50];
+    int roll;
+};
+
+void display(struct student stu);
+````
+forrás: https://www.programiz.com/c-programming/c-structure-function
 
 ## Idő
 > Az idő lekérésére számos mód létezik, alább csak egyet választok és az a `TIME()` függvény aminek előfeltétele a `<time.h>` és a `<stdio.h>`.
@@ -67,5 +79,13 @@ int main() {
   
   char S[MAX_STRING_LEN];
     /******/
-    ````
+````
 forrás: https://cs.nyu.edu/courses/spring05/V22.0201-001/c_tutorial/classes/String.html
+
+beolvasás consoleról:
+````C
+char line[1024];
+
+scanf("%1023[^\n]", line);
+````
+forrás: https://stackoverflow.com/questions/314401/how-to-read-a-line-from-the-console-in-c
