@@ -51,3 +51,21 @@ return_type function_name( parameter list ) {
 }
 ````
 forrás: https://www.tutorialspoint.com/cprogramming/c_functions.htm
+
+## String kezelés
+````C
+#include<stdio.h>
+#include<string.h>
+
+#define MAX_STRING_LEN 80
+
+int main() {
+  
+  /* strings are array of characters 
+   * terminated by the NULL character
+   * which is different from '0' */
+  
+  char S[MAX_STRING_LEN];
+    /******/
+    ````
+forrás: https://cs.nyu.edu/courses/spring05/V22.0201-001/c_tutorial/classes/String.html
