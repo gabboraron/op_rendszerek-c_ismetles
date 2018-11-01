@@ -35,6 +35,27 @@ void display(struct student stu);
 ````
 forrás: https://www.programiz.com/c-programming/c-structure-function
 
+> struktúrákból álló vektorok is lakothatóak:
+
+````C
+struct car
+{
+    char make[20];
+    char model[30]; 
+    int year;
+};
+
+struct car arr_car[10];
+````
+> amire aztán így lehet hivatkozni:
+````C
+        printf("Enter name: ");
+        scanf("%s", arr_student[i].name);
+
+        printf("Enter roll no: ");
+        scanf("%d", &arr_student[i].roll_no);
+````
+
 ## Idő
 > Az idő lekérésére számos mód létezik, alább csak egyet választok és az a `TIME()` függvény aminek előfeltétele a `<time.h>` és a `<stdio.h>`.
 példa:
