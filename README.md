@@ -55,6 +55,8 @@ struct car arr_car[10];
         printf("Enter roll no: ");
         scanf("%d", &arr_student[i].roll_no);
 ````
+forrás: https://overiq.com/c-programming/101/array-of-structures-in-c/
+        https://stackoverflow.com/questions/10468128/how-do-you-make-an-array-of-structs-in-c
 
 ## Idő
 > Az idő lekérésére számos mód létezik, alább csak egyet választok és az a `TIME()` függvény aminek előfeltétele a `<time.h>` és a `<stdio.h>`.
